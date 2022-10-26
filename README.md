@@ -1,4 +1,4 @@
-# Portfolio -- STATUS = EM PRODUÇÃO
+# Portfolio - Status: em produção
 
 Meu portfólio
 
