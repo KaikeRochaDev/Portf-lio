@@ -31,7 +31,6 @@ img {
     font-size: 8rem;
     line-height: 1;
     text-transform: uppercase;
-    max-width: 5ch;
 }
 
 @media (max-width: 800px){
