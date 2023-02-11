@@ -78,6 +78,17 @@
         font-size: 2rem;
     }
 
+    .introducao-botoes{
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .redes{
+        font-size: 1.05rem;
+    }
+
     .titulo-header{
         font-size: 1.6rem
     }
@@ -89,7 +100,7 @@
     }
 
     .svg-int {
-        width: 30px;
+        width: 20px;
     }
 
     .botao {
