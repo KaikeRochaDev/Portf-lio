@@ -163,4 +163,10 @@
         width: 20px;
         height: 20px;
     }
+
+    .final {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
 }
