@@ -111,7 +111,9 @@
     }
 
     .footer-contato li{
-        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.20rem;
     }
 
     .footer .subtitulo{
@@ -126,10 +128,39 @@
     }
 
     .nome{
-        padding: 20px 18px;
-        border-radius: 6px;
+        padding: 10px 12px;
+        width: 20rem;
         font-size: 1rem;
-        border-style: solid;
-        border-width: 3px;
+        border-width: 2px;
+    }
+
+    .email{
+        padding: 12px 10px;
+        font-size: 1rem;
+        width: 20rem;
+        border-width: 2px;
+    }
+    .mensagem{
+        padding: 12px 10px;
+        font-size: 1rem;
+        padding-right: 3.5rem;
+        width: 20rem;
+        border-width: 2px;
+    }
+
+    .enviar{
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .form{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
     }
 }
