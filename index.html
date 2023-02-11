@@ -51,7 +51,7 @@
 
     <section class="sobre-mim" id="sobre-mim" aria-label="Sobre mim">
         <h2>Sobre mim</h2>
-        <p>Meu nome é Kaike, tenho 17 anos, desde pequeno eu sempre gostei muito da Tecnologia, conheci a programação em 2021, através de um amigo, em 2022 comecei a focar, me dedicar e me aprofundar bastante no assunto, até então no momento eu, Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong></p>
+        <p>Meu nome é Kaike, tenho 17 anos, desde pequeno eu sempre gostei muito da Tecnologia, conheci a programação em 2021, já em 2022 comecei a focar e me dedicar, até que em 2023, eu iniciei a minha graduação em ADS(<strong>Análise e desenvolvimento de sistemas</strong>)</p>
     </section>
 
     <section class="habilidades" id="habilidades">
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="idiomas">
-                        <h3>Educação | Formação acadêmica | idiomas</h3>
+                        <h3>Educação e idiomas</h3>
                         <ul>
                             <li>Ensino médio <span>/ Completo</span></li>
                             <li>Inglês <span>/ Básico</span></li>
@@ -128,24 +128,24 @@
     <section class="projetos" id="projetos">
         <div class="texto-projetos">
             <h2>Projetos</h2>
-            <p class="projetos-p">Costumo fazer pequenos projetos para treinar, como clones de interface, landing pages e telas de login.</p>
+            <p class="projetos-p">Costumo fazer projetos em django que contenha um CRUD</p>
           </div>
           <div class="cards">
             <div class="card">
               <img style="background-size: cover;" src="/imgs/nutrilab.png" alt="">
               <p class="card-text">Site para nutricionistas gerenciarem seus pacientes.</p>
-              <a href="https://nutrilab-krd.onrender.com" target="_blank">Visualizar projeto</a>
+              <a class="link-projeto" href="https://nutrilab-krd.onrender.com" target="_blank">Visualizar projeto</a>
             </div>
             <div class="card">
-              <img style="display: flex; background-size: cover;" src="/imgs/imobi-cut.png" alt="">
-              <p class="card-text">Site de agendamentos de imóveis (casas e apartamentos).</p>
-              <a href="" target="_blank">Visualizar projeto</a>
-            </div>
-            <div class="card">
-              <img style="background-size: cover;" src="/imgs/imobi.png" alt="">
+              <img style="background-size: cover;" src="/imgs/adote.png" alt="">
               <p class="card-text">Site com sistema para adoção de pets.</p>
-              <a href="" target="_blank">Visualizar projeto</a>
+              <a class="link-projeto" href="" target="_blank">Visualizar projeto</a>
             </div>
+            <div class="card">
+                <img style="display: flex; background-size: cover;" src="/imgs/imobi-cut.png" alt="">
+                <p class="card-text">Site de agendamentos de imóveis (casas e apartamentos).</p>
+                <a class="link-projeto" href="https://imobi-krd.onrender.com/" target="_blank">Visualizar projeto</a>
+              </div>
           </div>
           <div class="veja-mais">
             <a href="https://github.com/KaikeRochaDev?tab=repositories" target="_blank">Veja mais projetos</a>
@@ -156,13 +156,32 @@
 
     <footer class="footer" id="contato">
         <div class="footer-container">
-            <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋🏼</p>
-            <ul class="footer-contato">
-                <li>kaikerochadev@gmail.com</li>
-                <li>+55 21 97159-0535</li>
-                <li><a href="https://www.instagram.com/kaikerochadev/">@kaikerochadev</a></li>
-            </ul>
-            <p class="footer-copy">Kaike. Alguns direitos reservados.</p>
+            <h2 style="display: flex; justify-content: center;" class="subtitulo">Contato</h2>
+            <div class="form-contato">
+                <ul class="footer-contato">
+                    <li style="display: flex;"><a style="display: flex;" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kaikerochadev@gmail.com" target="_blank"><img style="margin-right: 10px;" src="svg/email.svg" alt=""> kaikerochadev@gmail.com</a></li>
+                    <li style="display: flex;"><a style="display: flex;" href="https://wa.link/qots7i" target="_blank"><img style="margin-right: 10px;" src="./svg/whatsapp.svg" alt="">+55 21 97159-0535</a></li>
+                    <li style="display: flex;"><a style="display: flex;" href="https://www.instagram.com/kaikerochadev/" target="_blank"><img style="margin-right: 10px;" src="./svg/instagram.svg" alt=""> @kaikerochadev</a></li>
+                </ul>
+
+                <form style="display: grid; gap: 15px;" action="https://formsubmit.co/kaikerochadev@gmail.com" method="POST">
+                    <input class="nome" type="text" name="name" placeholder="Digite seu nome" required>
+                    <input class="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    <textarea class="mensagem" name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button class="enviar" type="submit">Enviar</button>
+    
+                    <input type="hidden" name="_subject" value="Novo contato!">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+               </form>
+            </div>
+            <hr>
+            <div style="display: flex; justify-content: space-between;">
+                <h3 style="color: white;">
+                    Kaike Rocha © 2023
+                </h3>
+                    <p class="footer-copy">Todos os direitos reservados</p>
+            </div> 
         </div>
     </footer>
 </body>

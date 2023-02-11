@@ -1,0 +1,202 @@
+.projetos{
+    width: 100%;
+    padding: 40px;
+  }
+  
+  .texto-projetos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .projetos h2{
+    color: #e0e0e0;
+    font-size: 8rem;
+    text-transform: uppercase;
+  }
+  
+  .projetos p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #8F8F8F;
+    max-width: 500px;
+  }
+  
+  .cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+  }
+  
+  .cards img{
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .card{
+    max-width: 400px;
+    padding: 30px;
+    background: #8f8f8f;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 4px;
+    flex-direction: column;
+    position: relative;
+    transition: .2s all ease;
+  }
+  
+  .card::before{
+    content: "";
+    width: 7px;
+    height: 35px;  
+    background: linear-gradient(180deg, #058182 0%, #08575a 100%);
+    position: absolute;
+    left: -7px;
+    top: 60px;
+  }
+  
+  .card:hover{
+    transform: scale(1.03);
+  }
+  
+  .card .card-text{
+    font-size: 1rem;
+    line-height: 1.3;
+    max-width: 300px;
+    color: #fff;
+  }
+  
+  
+  .card a{
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    transition: .4s all ease;
+  }
+  
+  .card a:hover{
+    background-color: rgb(159, 159, 159);
+  }
+
+  .link-projeto{
+    text-decoration: none;
+    color: #058182;
+  }
+  
+  .veja-mais{
+    text-align: center;
+  }
+  
+  .veja-mais a{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    color:#058182;
+    transition: .2s ease;
+  }
+  
+  
+  @media (max-width: 1350px){
+    .projetos h2{
+      font-size: 8rem;
+    }
+  
+    .cards{
+      flex-wrap: wrap;
+    }
+  
+  }
+  
+  @media(max-width : 1000px){
+    .texto-projetos{
+      grid-template-columns: 1fr;
+      gap: 0px;
+      text-align: center;
+    }
+  
+    .projetos h2{
+      color: #e7e7e7;
+      font-size: 7rem;
+    }
+  
+    .projetos .projetos-p{
+      text-align: left;
+      margin: 0 auto;
+    }
+  
+    .cards{
+      padding: 30px;
+    }
+    
+  }
+  
+  @media(max-width : 720px){
+    .projetos h2{
+      color: #f9f9f9;
+      font-size: 6rem;
+    }
+  }
+  
+  @media(max-width : 560px){
+    .projetos h2{
+      font-size: 5rem;
+    }
+  
+    .projetos .projetos-p{
+      font-size: 1.2rem;
+    }
+  
+    .cards{
+      padding: 30px;
+    }
+  
+    .card{
+      padding: 25px;
+    }
+  }
+  
+  @media(max-width : 460px){
+    .projetos h2{
+      font-size: 4.5rem;
+    }
+  
+    .projetos .projetos-p{
+      font-size: 1.2rem;
+    }
+  
+    .cards{
+      margin-top: 30px;
+      padding: 20px;
+    }
+  
+  }
+  
+  @media(max-width : 420px){
+    .projetos h2{
+      font-size: 3.3rem;
+    }
+  
+    .projetos .projetos-p{
+      font-size: 1.1rem;
+    }
+  
+    .cards{
+      padding: 20px;
+    }
+  }
+  
+  @media(max-width : 360px){
+    .projetos .projetos-p{
+      font-size: 1rem;
+    }
+  }
+  

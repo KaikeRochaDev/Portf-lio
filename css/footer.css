@@ -1,0 +1,116 @@
+.footer {
+    background: #141414;
+}
+
+.footer-container{
+    max-width: 1200px;
+    padding: 40px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer .subtitulo{
+    color: black;
+    word-break: break-all;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer-contato li{
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.footer-contato li a{
+    color: #fff;
+}
+
+.footer-copy{
+    grid-column: 1 / -1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
+}
+
+.nome{
+    padding: 20px 18px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #058182;
+    color: white;
+}
+
+.nome::placeholder{
+    color: #8f8f8f;
+}
+
+.email{
+    padding: 20px 18px;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #058182;
+    color: white;
+}
+
+.email::placeholder{
+    color: #8f8f8f;
+}
+
+.mensagem{
+    padding: 20px 18px;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding-right: 3.5rem;
+    resize: none;
+    width: 500px;
+    background-color: #000000;
+    border-width: 3px;
+    border-color: #058182;
+    color: white;
+}
+
+.mensagem::placeholder{
+    color: #8f8f8f;
+}
+
+.enviar{
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+.enviar:hover{
+    background-color: #8f8f8f;
+    transition: 0.3s ease-in;
+    color: white;
+}
+
+.form-contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 800px){
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-contato li{
+        font-size: 1.5rem;
+    }
+}
