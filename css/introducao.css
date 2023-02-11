@@ -79,9 +79,10 @@
     }
 
     .introducao-botoes{
-        grid: 1;
+        display: grid;
+        justify-content: center;
         gap: 10px;
-        
+
     }
 
     .redes{
