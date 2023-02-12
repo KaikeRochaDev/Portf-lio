@@ -165,8 +165,12 @@
     }
 
     .final {
-        display: flex;
-        justify-content: space-between;
+        font-size: 0.9rem;
+    }
+
+    .footer-copy{
+        margin-left: 100px;
         font-size: 1rem;
+        color: #8f8f8f;
     }
 }
