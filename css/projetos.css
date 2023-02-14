@@ -30,6 +30,7 @@
     justify-content: center;
     gap: 50px;
     padding: 60px;
+    flex-wrap: wrap;
   }
   
   .cards img{
@@ -89,6 +90,18 @@
   .link-projeto{
     text-decoration: none;
     color: #058182;
+    display: flex;
+    justify-content: center;
+  }
+
+  .github-icon{
+    width: 25px;
+    margin-right: 6px;
+  }
+
+  .link-icon{
+    width: 25px;
+    margin-right: 6px;
   }
   
   .veja-mais{
