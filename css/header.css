@@ -22,13 +22,20 @@
     justify-content: center;
 }
 
-.header-menu a {
+.header-menu li a {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
     color: #141414;
+    display: block;
+}
+
+.header-menu li a:hover{
+    border-bottom: 1px solid rebeccapurple;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
     display: block;
 }
 
