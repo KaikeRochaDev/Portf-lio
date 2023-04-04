@@ -16,6 +16,6 @@ Projeto construido no curso do Origamid
 
 ## Contato
 
-kaikerochadev@gmail.com
+dev.kaikerocha@gmail.com
 
 
