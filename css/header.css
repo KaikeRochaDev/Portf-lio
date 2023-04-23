@@ -30,6 +30,11 @@
     text-decoration: none;
     color: #141414;
     display: block;
+    transition: all .5s;
+}
+
+.header-menu li a:hover {
+    color: #08575a;
 }
 
 @media(max-width: 800px) {
