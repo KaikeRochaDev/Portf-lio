@@ -25,6 +25,10 @@
     z-index: -1;
 }
 
+.foto-perfil{
+    border-radius: 16px;
+}
+
 .titulo-header {
     font-size: 4.6rem;
     line-height: 1.125;
