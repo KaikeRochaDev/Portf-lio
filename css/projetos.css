@@ -1,214 +1,202 @@
-.projetos{
-    width: 100%;
-    padding: 40px;
+.projetos {
+  width: 100%;
+  padding: 40px;
+}
+
+.texto-projetos {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.projetos h2 {
+  color: #e0e0e0;
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.projetos-introducao {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #8F8F8F;
+  max-width: 500px;
+}
+
+.projetos-descricao{
+  margin-bottom: 1rem;
+}
+
+.veja-mais {
+  text-align: center;
+}
+
+.veja-mais a {
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #4F76C6;
+  transition: .2s ease;
+}
+
+.projetos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  margin-bottom: 60px;
+}
+
+.projetos-item {
+  background: #e0e0e0;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: all 300ms ease;
+}
+
+.projetos-item:hover {
+  border-color: #c5c5c5;
+  background: #c5c5c5;
+}
+
+.projetos-item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.projetos-item h3 {
+  margin: 1.2rem 0 0.6rem;
+}
+
+.projetos-item ul li{
+  border: 1px solid blue;
+  width: max-content;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.3rem;
+  background-color: blue;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 0.20rem;
+}
+
+.projetos-item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  color: #0554f2;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #0554f2;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4F76C6;
+  color: white;
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: #0554f2;
+  color: white;
+}
+
+@media (max-width: 1350px) {
+  .projetos h2 {
+      font-size: 8rem;
   }
-  
-  .texto-projetos{
-    max-width: 1200px;
-    margin: 0 auto;
+}
+
+@media (max-width: 1280px){
+  .projetos-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 100px;
-    align-items: center;
-  }
-  
-  .projetos h2{
-    color: #e0e0e0;
-    font-size: 8rem;
-    text-transform: uppercase;
-  }
-  
-  .projetos p{
-    font-size: 1.4rem;
-    line-height: 1.5;
-    color: #8F8F8F;
-    max-width: 500px;
-  }
-  
-  .cards{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 60px;
-    flex-wrap: wrap;
-  }
-  
-  .cards img{
-    max-width: 100%;
-    display: block;
-    border-radius: 4px;
-  }
-  
-  .card{
-    max-width: 400px;
-    padding: 30px;
-    background: #8f8f8f;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    border-radius: 4px;
-    flex-direction: column;
-    position: relative;
-    transition: .2s all ease;
-  }
-  
-  .card::before{
-    content: "";
-    width: 7px;
-    height: 35px;  
-    background: linear-gradient(180deg, #4F76C6 0%, #0554f2 100%);
-    position: absolute;
-    left: -7px;
-    top: 60px;
-  }
-  
-  .card:hover{
-    transform: scale(1.03);
-  }
-  
-  .card .card-text{
-    font-size: 1rem;
-    line-height: 1.3;
-    
-    color: #fff;
-  }
-  
-  
-  .card a{
-    background-color: #eee;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-align: center;
-    font-weight: bold;
-    transition: .4s all ease;
-  }
-  
-  .card a:hover{
-    background-color: rgb(159, 159, 159);
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 50px;
   }
 
-  .link-projeto{
-    text-decoration: none;
-    color: #4F76C6;
-    display: flex;
-    justify-content: center;
-  }
+}
 
-  .github-icon{
-    width: 25px;
-    margin-right: 6px;
-  }
-
-  .link-icon{
-    width: 25px;
-    margin-right: 6px;
-  }
-  
-  .veja-mais{
-    text-align: center;
-  }
-  
-  .veja-mais a{
-    padding: 20px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: underline;
-    color:#4F76C6;
-    transition: .2s ease;
-  }
-  
-  
-  @media (max-width: 1350px){
-    .projetos h2{
-      font-size: 8rem;
-    }
-  
-    .cards{
-      flex-wrap: wrap;
-    }
-  
-  }
-  
-  @media(max-width : 1000px){
-    .texto-projetos{
+@media (max-width: 1000px) {
+  .texto-projetos {
       grid-template-columns: 1fr;
       gap: 0px;
       text-align: center;
-    }
-  
-    .projetos h2{
+  }
+
+  .projetos h2 {
       color: #e2dbdbd0;
       font-size: 7rem;
-    }
-  
-    .projetos .projetos-p{
+  }
+
+  .projetos-introducao {
       text-align: left;
       margin: 0 auto;
-    }
-  
-    .cards{
-      padding: 30px;
-    }
-    
   }
-  
-  @media(max-width : 720px){
-    .projetos h2{
+}
+
+@media (max-width: 720px) {
+  .projetos h2 {
       color: #e2dbdbd0;
       font-size: 6rem;
-    }
   }
-  
-  @media(max-width : 560px){
-    .projetos h2{
+
+  .projetos-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 32rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .projetos h2 {
       font-size: 5rem;
-    }
-  
-    .projetos .projetos-p{
-      font-size: 1.2rem;
-    }
-  
-    .cards{
-      padding: 30px;
-    }
-  
-    .card{
-      padding: 25px;
-    }
   }
-  
-  @media(max-width : 460px){
-    .projetos h2{
+
+  .projetos-introducao {
+      font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .projetos h2 {
       font-size: 4.5rem;
-    }
-  
-    .projetos .projetos-p{
+  }
+
+  .projetos-introducao {
       font-size: 1.2rem;
-    }
-  
-    .cards{
-      margin-top: 30px;
-      padding: 20px;
-    }
-  
   }
-  
-  @media(max-width : 420px){
-    .projetos h2{
+}
+
+@media (max-width: 420px) {
+  .projetos h2 {
       font-size: 3.3rem;
-    }
-  
-    .projetos .projetos-p{
+  }
+
+  .projetos-introducao {
       font-size: 1.1rem;
-    }
-  
-    .cards{
-      padding: 20px;
-    }
   }
-  
-  @media(max-width : 360px){
-    .projetos .projetos-p{
+}
+
+@media (max-width: 360px) {
+  .projetos-introducao {
       font-size: 1rem;
-    }
   }
-  
+}
