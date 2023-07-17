@@ -28,9 +28,21 @@
     margin-bottom: 30px;
 }
 
-.footer-contato li a{
-    color: #fff;
+.footer-contato li a {
+    color: white;
+    align-items: center;
+    gap: 10px;
 }
+
+.footer-contato li a i {
+    text-decoration: none;
+}
+
+.footer-contato li a span {
+    text-decoration: underline;
+}
+
+
 
 .footer-copy{
     grid-column: 1 / -1;

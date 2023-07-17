@@ -52,25 +52,23 @@
     gap: 50px;
 }
 
-.botao{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border: 1px solid #e0e0e0;
-    background-color: #e0e0e0;
-    width: 168px;
-    height: 60px;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-    text-decoration: none;
-    color: #141414;
-    font-weight: 600;
+.introducao .btn{
+    width: 9.75rem;
 }
 
-.botao:hover{
-    background-color: #c8c7c7;
+.introducao i{
+    margin-right: 10px;
 }
+
+.introducao i:hover{
+    color: white;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
 
 @media (max-width: 1000px) {
     .introducao h1{
