@@ -1,4 +1,4 @@
-# Portfolio - Status: em produção
+# Portfolio
 
 ![preview](./.github/preview.png)
 > Meu portfólio
